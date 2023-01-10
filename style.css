@@ -76,7 +76,7 @@ nav>ul{
     display: none;
 }
 
-.menu-m+ul:hover{
+.menu-m:hover .nav-m{
     display: block;
 }
 
@@ -99,6 +99,12 @@ nav>ul{
 
 @media (max-width:425px) {
     header{
+        display: none;
+    }
+}
+
+@media (min-width:425px) {
+    .header-m{
         display: none;
     }
 }
